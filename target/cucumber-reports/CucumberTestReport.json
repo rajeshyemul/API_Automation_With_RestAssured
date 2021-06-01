@@ -1,0 +1,105 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "User generates token for Authorisation",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2846000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am an authorized user",
+            "match": {
+              "location": "StepsDefinitions.Steps.i_am_an_authorized_user()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-01T06:40:36.110Z",
+        "line": 24,
+        "name": "The Authorized user can Add and Remove a book.",
+        "description": "",
+        "id": "e2e-tests-for-bookstore-api;the-authorized-user-can-add-and-remove-a-book.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 824000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "A list of books are available",
+            "match": {
+              "location": "StepsDefinitions.Steps.a_list_of_books_are_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 812000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I add a book to my reading list",
+            "match": {
+              "location": "StepsDefinitions.Steps.i_add_a_book_to_my_reading_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the book is added",
+            "match": {
+              "location": "StepsDefinitions.Steps.the_book_is_added()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 749000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I remove a book from my reading list",
+            "match": {
+              "location": "StepsDefinitions.Steps.removeBookFromList()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 802000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The book is removed",
+            "match": {
+              "location": "StepsDefinitions.Steps.bookIsRemoved()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "E2E Tests for bookstore API",
+    "description": "",
+    "id": "e2e-tests-for-bookstore-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FunctionalTest/E2E_Tests.feature",
+    "tags": []
+  }
+]
